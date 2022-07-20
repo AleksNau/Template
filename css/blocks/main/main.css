@@ -1,0 +1,23 @@
+.section {
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 120px;
+}
+
+.main {
+    max-width: 990px;
+    margin: 0 auto;
+}
+
+.main__title {
+    margin-bottom: 35px;
+}
+
+.main__paragrath {
+    margin-bottom: 90px;
+}
+
+.blue_button {
+    width: 200px;
+    height: 48px;
+}

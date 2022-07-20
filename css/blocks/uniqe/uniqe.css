@@ -1,0 +1,26 @@
+.uniqe {
+    margin: 0 auto;
+    width: 1200px;
+    text-align: center;
+    padding-top: 120px;
+}
+
+.uniqe {
+    margin: 0 auto;
+    max-width: 884px;
+}
+
+.uniqe__title {
+    margin-bottom: 35px;
+}
+
+.uniqe__paragrath {
+    margin-bottom: 50px;
+}
+
+.uniqe__list {
+    display: flex;
+    gap: 87px;
+    justify-content: space-between;
+    list-style: none;
+}
