@@ -6,7 +6,10 @@
 
 .feedback {
     margin: 0 auto;
-    max-width: 602px;
+    background:url(./image/original_598199574f1350638e11b2d2_5982c05803796.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: bottom center;
 }
 
 .feedback__title{

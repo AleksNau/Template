@@ -2,11 +2,15 @@
     margin: 0 auto;
     padding-top: 45px;
     padding-bottom: 45px;
-    width: 1200px;
     display: flex;
     justify-content: space-between;
+    color: #FFFFFF;
 }
 
 .trademark {
     white-space: pre-line;
+}
+
+.footer2 {
+    background-color: #2F324B;
 }
