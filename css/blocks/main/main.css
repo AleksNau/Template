@@ -4,11 +4,6 @@
     padding-top: 120px;
 }
 
-.conteiner {
-    max-width: 990px;
-    margin: 0 auto;
-}
-
 .main {
     background:url(./image/stag-office-mockup.jpg);
     background-repeat: no-repeat;
@@ -68,4 +63,22 @@
     font-weight: 400;
     font-size: 25.16px;
     line-height: 44px;
+}
+
+.number {
+    font-size: 23.85px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.call_me {
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration: underline;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

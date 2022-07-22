@@ -1,7 +1,6 @@
-.footer {
+.footer-box {
     margin: 0 auto;
-    padding-top: 45px;
-    padding-bottom: 45px;
+
     display: flex;
     justify-content: space-between;
     color: #FFFFFF;
@@ -11,6 +10,24 @@
     white-space: pre-line;
 }
 
-.footer2 {
+.footer-main {
     background-color: #2F324B;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+.footer-row {
+    display: flex;
+    align-items: center;
+}
+
+.footer__trademark {
+    white-space: pre-line;
+    padding-left: 19px;
+}
+
+.footer__made_by {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 17px;
 }
