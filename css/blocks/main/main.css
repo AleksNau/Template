@@ -4,9 +4,22 @@
     padding-top: 120px;
 }
 
-.main {
+.conteiner {
     max-width: 990px;
     margin: 0 auto;
+}
+
+.main {
+    background:url(./image/stag-office-mockup.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: bottom center;
+}
+.main:after {
+    content: "";
+    height: 100px;
+    width: 100px;
+    background: rgba(47, 50, 75, 0.85);
 }
 
 .main__title {
