@@ -15,6 +15,9 @@ body {
   font-family: Arial, sans-serif;
   font-weight: 400;
   color: #FFFFFF;
+  max-width: 1600px;
+  margin: 0 auto;
+
 }
 
 
@@ -69,9 +72,6 @@ blockquote{
   margin: 0 auto;
 }
 
-section {
-  padding: 50px 0;
-}
 
 path { fill:inherit; stroke:inherit; }
 
@@ -86,6 +86,7 @@ label {
   margin: 0 auto;
   width: 1240px;
   padding: 0 30px;
+
 }
 
 a:active, a:focus { outline: none; }

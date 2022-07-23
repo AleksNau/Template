@@ -5,16 +5,12 @@
 }
 
 .main {
-    background:url(./image/stag-office-mockup.jpg);
+    background-image: linear-gradient(rgba(47, 50, 75, 0.85),rgba(47, 50, 75, 0.85)), url(./image/background.jpg);
     background-repeat: no-repeat;
-    background-size:cover;
-    background-position: bottom center;
-}
-.main:after {
-    content: "";
-    height: 100px;
-    width: 100px;
-    background: rgba(47, 50, 75, 0.85);
+    background-size: 100% auto;
+    background-position: center;
+    max-width: 1600px;
+    height: 732px;
 }
 
 .main__title {
