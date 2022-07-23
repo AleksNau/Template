@@ -19,6 +19,14 @@
 .feedback__input {
     width: 423px;
     height: 44px;
+    padding: 9px 25px;
+    border: 1.38235px solid #FFFFFF;
+    border-radius: 50px;
+    color: rgba(255, 255, 255, 0.5);
+    background-color: transparent;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26px
 }
 
 .feedback__form {
