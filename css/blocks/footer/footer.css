@@ -24,9 +24,14 @@
 .footer__trademark {
     white-space: pre-line;
     padding-left: 19px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 17px;
 }
 
 .footer__made_by {
+    display: flex;
+    align-items: center;
     font-weight: 500;
     font-size: 12px;
     line-height: 17px;

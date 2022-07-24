@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="./css/index.css">
+    <link rel="preload" href="./fonts/Roboto-Regular.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="./fonts/Roboto-Bold.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="./fonts/Roboto-Italic.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="./fonts/Pacifico-Regular.ttf" as="font" type="font/ttf" crossorigin>
     <title>Template</title>
 </head>
 <body>
@@ -24,13 +28,13 @@
     </section>
     <section class="uniqe section">
         <h2 class="uniqe__title">Уникальный заголовок для преимущества компании</h2>
-        <h3 class="uniqe__paragrath">О нас</h3>
-        <p class="test">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить.</p>
+        <h3 class="uniqe__subtitle">О нас</h3>
+        <p class="uniqe__paragrath">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить.</p>
         <ul class="uniqe__list">
-            <li class="uniqe__item"><div class="logo"><p class="logo-text">Logo</p></div>Первое целевое преимущество</li>
-            <li class="uniqe__item"><div class="logo"><p class="logo-text">Logo</p></div>Второе целевое преимущество</li>
-            <li class="uniqe__item"><div class="logo"><p class="logo-text">Logo</p></div>Третье целевое преимущество</li>
-            <li class="uniqe__item"><div class="logo"><p class="logo-text">Logo</p></div>Четвертое целевое преимущество</li>
+            <li class="uniqe__item"><p class="uniqe__item-number">1</p><p class="uniqe__item-text">Первое целевое преимущество</p></li>
+            <li class="uniqe__item"><p class="uniqe__item-number">2</p><p class="uniqe__item-text">Второе целевое преимущество</p></li>
+            <li class="uniqe__item"><p class="uniqe__item-number">3</p><p class="uniqe__item-text">Третье целевое преимущество</p></li>
+            <li class="uniqe__item"><p class="uniqe__item-number">4</p><p class="uniqe__item-text">Четвертое целевое преимущество</p></li>
         </ul>
     </section>
     <section class="feedback">
@@ -45,7 +49,7 @@
                     позвоните мне
                 </button>
             </form>
-            <p class="feedback__agreed">Я даю своё <a href="">согласие</a> на обработку моих персональных данных.</p>
+            <p class="feedback__agreed">Я даю своё <a class="agreed__text" href="">согласие</a> на обработку моих персональных данных.</p>
         </div>
        </section>
 </main>
