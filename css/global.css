@@ -67,11 +67,6 @@ blockquote{
   overflow: hidden;
 }
 
-.container {
-  max-width: 1600px;
-  margin: 0 auto;
-}
-
 
 path { fill:inherit; stroke:inherit; }
 
@@ -86,5 +81,26 @@ label {
   margin: 0 auto;
   width: 1240px;
   padding: 0 30px;
+}
+@media (max-width: 1024px){
+  .conteiner {
+    margin: 0 auto;
+    width: 1024px;
+  }
+  body {
+    max-width: 1024px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 320px){
+  .conteiner {
+    margin: 0 auto;
+    width: 320px;
+
+  }
+  body {
+    max-width: 320px;
+    margin: 0 auto;
+  }
 }
 a:active, a:focus { outline: none; }
