@@ -78,3 +78,47 @@
     }
 
 }
+
+@media (max-width: 320px) {
+    .footer-box {
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        color: #FFFFFF;
+    }
+
+    .trademark {
+        white-space: pre-line;
+    }
+
+    .footer-main {
+        background-color: #2F324B;
+        padding-top: 29px;
+        padding-bottom: 29px;
+    }
+
+    .footer-row {
+        display: flex;
+        align-items: center;
+    }
+
+    .footer__trademark {
+        white-space: pre-line;
+        padding-left: 19px;
+        font-weight: 500;
+        font-size: 8px;
+        line-height: 11px;
+
+    }
+
+    .footer__made_by {
+        display: flex;
+        align-items: center;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 17px;
+        width: 1px;
+        display: none;
+    }
+
+}
