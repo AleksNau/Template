@@ -50,3 +50,103 @@
     color: #4A76A8;
     border-bottom: 1px solid #4A76A8;
 }
+@media (max-width: 1024px) {
+
+    .feedback__title {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 38px;
+        margin-bottom: 17px;
+    }
+
+    .feedback__input {
+        width: 377px;
+        height: 39px;
+        padding: 8px 23px;
+        border: 1.38235px solid #FFFFFF;
+        border-radius: 50px;
+        color: rgba(255, 255, 255, 0.5);
+        background-color: transparent;
+        font-size: 20px;
+        line-height: 23px;
+    }
+    .feedback__input:last-of-type {
+        margin-bottom: 29px;
+    }
+
+    .feedback__form {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        gap: 21px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .feedback__agreed {
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 20px;
+    }
+
+    .agreed__text{
+        color: #4A76A8;
+        border-bottom: 1px solid #4A76A8;
+    }
+}
+
+@media (max-width: 320px) {
+
+
+    .feedback__title {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 23px;
+        margin-bottom: 17px;
+    }
+
+    .feedback__subtitle {
+        font-size: 12px;
+        line-height: 14px;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.8);
+    }
+
+    .feedback__input {
+        width: 290px;
+        height: 28px;
+        padding: 6px 18px;
+        border: 1.38235px solid #FFFFFF;
+        border-radius: 50px;
+        color: rgba(255, 255, 255, 0.5);
+        background-color: transparent;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .feedback__input:last-of-type {
+        margin-bottom: 24px;
+    }
+
+    .feedback__form {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        gap: 15px;
+        padding-top: 35px;
+        padding-bottom: 30px;
+    }
+
+    .feedback__agreed {
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 13px;
+    }
+
+    .agreed__text{
+        color: #4A76A8;
+        border-bottom: 1px solid #4A76A8;
+    }
+}
+

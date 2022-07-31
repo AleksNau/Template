@@ -36,3 +36,44 @@
     font-size: 12px;
     line-height: 17px;
 }
+
+@media (max-width: 1024px) {
+    .footer-box {
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        color: #FFFFFF;
+    }
+
+    .trademark {
+        white-space: pre-line;
+    }
+
+    .footer-main {
+        background-color: #2F324B;
+        padding-top: 37px;
+        padding-bottom: 37px;
+    }
+
+    .footer-row {
+        display: flex;
+        align-items: center;
+    }
+
+    .footer__trademark {
+        white-space: pre-line;
+        padding-left: 19px;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 17px;
+    }
+
+    .footer__made_by {
+        display: flex;
+        align-items: center;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 17px;
+    }
+
+}
