@@ -245,9 +245,8 @@
 
     .uniqe__item-text {
         width: 196px;
-        font-size: 20px;
         font-weight: 500;
-        font-size: 52px;
-        line-height: 73px;
+        font-size: 18px;
+        line-height: 25px;
     }
 }
