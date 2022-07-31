@@ -12,12 +12,9 @@ html {
 body {
   min-width: 320px;
   min-height: 100vh;
-  font-family: Arial, sans-serif;
+  font-family: Roboto, sans-serif;
   font-weight: 400;
   color: #FFFFFF;
-  max-width: 1600px;
-  margin: 0 auto;
-
 }
 
 
@@ -67,11 +64,6 @@ blockquote{
   overflow: hidden;
 }
 
-.container {
-  max-width: 1600px;
-  margin: 0 auto;
-}
-
 
 path { fill:inherit; stroke:inherit; }
 
@@ -84,7 +76,7 @@ label {
 }
 .conteiner {
   margin: 0 auto;
-  width: 1240px;
+  max-width: 1240px;
   padding: 0 30px;
 }
-a:active, a:focus { outline: none; }
+

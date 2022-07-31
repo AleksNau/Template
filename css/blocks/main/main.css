@@ -8,10 +8,8 @@
 .main {
     background-image: linear-gradient(rgba(47, 50, 75, 0.85),rgba(47, 50, 75, 0.85)), url(./image/background.jpg);
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: cover;
     background-position: center;
-    max-width: 1600px;
-    height: 732px;
 }
 
 .main__title {
@@ -46,6 +44,8 @@
     border-style: none;
     border-radius: 50px;
     color: #FFFFFF;
+    font-size: 20px;
+    line-height: 23px;
 }
 .logo {
     height: 68px;
@@ -63,6 +63,7 @@
     font-weight: 400;
     font-size: 25.16px;
     line-height: 44px;
+    vertical-align: top;
 }
 
 .number {
@@ -84,3 +85,4 @@
     flex-direction: column;
     align-items: center;
 }
+
