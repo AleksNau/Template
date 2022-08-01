@@ -194,8 +194,8 @@
         border-style: none;
         border-radius: 50px;
         color: #FFFFFF;
-        font-size: 20px;
-        line-height: 23px;
+        font-size: 16px;
+        line-height: 19px;
     }
     .logo {
         height: 30px;
@@ -235,8 +235,6 @@
 .call_me {
     display: none;
 }
-
-
 
 
     .phone-icon {
