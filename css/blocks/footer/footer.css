@@ -35,6 +35,7 @@
     font-size: 12px;
     line-height: 17px;
 }
+
 .signature {
     padding-top: 15px;
     padding-bottom: 15px;
@@ -90,18 +91,21 @@
 
 }
 
-@media (max-width: 320px){
+@media (max-width: 320px) {
     .footer__made-by {
         display: none;
     }
-    .contacts{
+
+    .contacts {
         vertical-align: middle;
     }
+
     .footer__trademark {
     font-weight: 500;
     font-size: 8px;
     line-height: 11px;
     }
+
     .conteiner {
         padding-left: 0;
         padding-right: 0;
@@ -110,6 +114,4 @@
     .signature {
         display: block;
     }
-
-
 }

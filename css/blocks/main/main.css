@@ -12,9 +12,11 @@
     background-position: center;
 
 }
+
 .phone-icon {
     display: none;
 }
+
 .main__title {
     font-weight: 900;
     font-size: 52px;
@@ -45,6 +47,7 @@
     font-size: 20px;
     line-height: 23px;
 }
+
 .logo {
     height: 68px;
     width: 68px;
@@ -154,6 +157,7 @@
         align-items: center;
     }
 }
+
 @media (max-width: 320px) {
 
     .section {

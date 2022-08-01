@@ -6,8 +6,6 @@
 }
 
 .uniqe__title {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 35px;
     line-height: 41px;
@@ -17,8 +15,6 @@
 }
 
 .uniqe__subtitle {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 22px;
     line-height: 26px;
@@ -36,17 +32,17 @@
     margin: 0 auto;
 }
 
-.uniqe__list{
+.uniqe__list {
     padding: 0;
     margin: 0;
     list-style: none;
 }
+
 .uniqe__list {
     display: flex;
     gap: 50px;
     list-style: none;
     color: #383A4C;
-
 }
 
 .uniqe__item {
@@ -92,8 +88,6 @@
     }
 
     .uniqe__title {
-        font-family: 'Roboto';
-        font-style: normal;
         font-weight: 700;
         font-size: 32px;
         line-height: 38px;
@@ -120,7 +114,7 @@
         margin: 0 auto;
     }
 
-    .uniqe__list{
+    .uniqe__list {
         padding: 0;
         margin: 0;
         list-style: none;
@@ -200,7 +194,7 @@
         margin: 0 auto;
     }
 
-    .uniqe__list{
+    .uniqe__list {
         padding: 0;
         margin: 0;
         list-style: none;
