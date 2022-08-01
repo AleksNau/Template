@@ -164,7 +164,7 @@
     }
 
     .conteiner {
-        max-width: 240px;
+        max-width: 290px;
     }
 
     .main__title {
@@ -197,6 +197,7 @@
         font-size: 16px;
         line-height: 19px;
     }
+
     .logo {
         height: 30px;
         width: 30px;
@@ -229,13 +230,13 @@
         border-bottom:1px solid;
     }
 
-.number {
+    .number {
     display: none;
-}
-.call_me {
-    display: none;
-}
+    }
 
+    .call_me {
+    display: none;
+    }
 
     .phone-icon {
         display: block;

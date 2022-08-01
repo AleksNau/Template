@@ -89,6 +89,10 @@
     font-size: 8px;
     line-height: 11px;
     }
+    .conteiner {
+        padding-left: 0;
+        padding-right: 0;
+    }
 
 
 }

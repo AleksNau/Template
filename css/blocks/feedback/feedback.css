@@ -15,7 +15,7 @@
 }
 
 .feedback__input {
-    width: 423px;
+    width: 100%;
     height: 44px;
     padding: 9px 25px;
     border: 1.38235px solid #FFFFFF;
@@ -31,6 +31,8 @@
 }
 
 .feedback__form {
+    margin: 0 auto;
+    max-width: 423px;
     display: flex;
     flex-direction: column;
     text-align: center;
