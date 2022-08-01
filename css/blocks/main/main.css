@@ -229,9 +229,13 @@
         border-bottom:1px solid;
     }
 
-    .contacts {
-display: none;
-    }
+.number {
+    display: none;
+}
+.call_me {
+    display: none;
+}
+
 
 
 

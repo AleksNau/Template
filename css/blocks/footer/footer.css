@@ -76,3 +76,19 @@
     }
 
 }
+
+@media (max-width: 320px){
+    .footer__made_by {
+        display: none;
+    }
+    .contacts{
+        vertical-align: middle;
+    }
+    .footer__trademark {
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 11px;
+    }
+
+
+}
