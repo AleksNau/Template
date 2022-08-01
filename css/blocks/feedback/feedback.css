@@ -48,7 +48,7 @@
     line-height: 23px;
 }
 
-.agreed__text{
+.agreed-text{
     color: #4A76A8;
     border-bottom: 1px solid #4A76A8;
 }
@@ -92,7 +92,7 @@
         line-height: 20px;
     }
 
-    .agreed__text{
+    .agreed-text{
         color: #4A76A8;
         border-bottom: 1px solid #4A76A8;
     }
@@ -146,7 +146,7 @@
         line-height: 13px;
     }
 
-    .agreed__text{
+    .agreed-text{
         color: #4A76A8;
         border-bottom: 1px solid #4A76A8;
     }

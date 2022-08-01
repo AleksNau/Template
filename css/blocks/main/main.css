@@ -35,7 +35,7 @@
     margin-bottom: 90px;
 }
 
-.blue_button {
+.button {
     width: 200px;
     height: 48px;
     background-color: #15A9CB;
@@ -65,14 +65,14 @@
     text-align: center;
 }
 
-.number {
+.contacts__number {
     font-size: 23.85px;
     line-height: 28px;
     text-align: center;
     margin-bottom: 3px;
 }
 
-.call_me {
+.contacts__callme {
     font-size: 16px;
     line-height: 19px;
     height: 21px;
@@ -106,7 +106,7 @@
         margin-bottom: 60px;
     }
 
-    .blue_button {
+    .button {
         width: 200px;
         height: 48px;
         background-color: #15A9CB;
@@ -134,14 +134,14 @@
         line-height: 39px;
     }
 
-    .number {
+    .contacts__number {
         font-size: 21px;
         line-height: 25px;
         text-align: center;
         margin-bottom: 3px;
     }
 
-    .call_me {
+    .contacts__callme {
         font-size: 13px;
         line-height: 15px;
         height: 21px;
@@ -187,7 +187,7 @@
         margin-bottom: 52px;
     }
 
-    .blue_button {
+    .button {
         width: 160px;
         height: 38px;
         background-color: #15A9CB;
@@ -216,25 +216,25 @@
         line-height: 19px;
     }
 
-    .number {
+    .contacts__number {
         font-size: 21px;
         line-height: 25px;
         text-align: center;
         margin-bottom: 3px;
     }
 
-    .call_me {
+    .contacts__callme {
         font-size: 13px;
         line-height: 15px;
         height: 21px;
         border-bottom:1px solid;
     }
 
-    .number {
+    .contacts__number {
     display: none;
     }
 
-    .call_me {
+    .contacts__callme {
     display: none;
     }
 
