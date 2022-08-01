@@ -46,11 +46,11 @@
         <div class="conteiner section">
             <h2  class="feedback__title">Остались вопросы?</h2>
             <h3 class="feedback__subtitle">Оставьте номер телефона, и мы перезвоним вам</h3>
-            <form action="" class="feedback__form">
-                <input type="text" class="feedback__input" placeholder="Ваше имя">
-                <input type="text" class="feedback__input" placeholder="Телефон">
-                <input type="text" class="feedback__input" placeholder="E-mail">
-                <button class="button">
+            <form id="form" action="https://jsonplaceholder.typicode.com/posts" method="post" class="feedback__form">
+                <input type="text" class="feedback__input" placeholder="Ваше имя" aria-label="name" name="Name">
+                <input type="tel" class="feedback__input" placeholder="Телефон" aria-label="telephone" name="telephone number">
+                <input type="email" class="feedback__input" placeholder="E-mail"  aria-label="email" name="email adress">
+                <button type="submit" class="button">
                     позвоните мне
                 </button>
             </form>
@@ -70,7 +70,7 @@
         <p class="contacts__number">+7 (962) 556 - 1234</p>
         <span class="contacts__callme">Перезвоните мне</span>
         <a href="#recall" class="phone-link">
-            <img class="phone-icon" src="./css/blocks/main/image/Phone.svg" alt="икока с изображением телефонной трубки">
+            <img class="phone-icon" src="./css/blocks/main/image/Phone.svg" alt="иконка с изображением телефонной трубки">
         </a>
     </div>
 </div>
