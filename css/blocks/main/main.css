@@ -12,12 +12,10 @@
     background-position: center;
 
 }
-.phone-link{
+.phone-icon {
     display: none;
 }
 .main__title {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 900;
     font-size: 52px;
     line-height: 61px;
@@ -26,8 +24,6 @@
 }
 
 .main__paragrath {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 22px;
     line-height: 31px;
@@ -91,8 +87,6 @@
 
 @media (max-width: 1024px) {
     .main__title {
-        font-family: 'Roboto';
-        font-style: normal;
         font-weight: 900;
         font-size: 40px;
         line-height: 47px;;
@@ -101,8 +95,6 @@
     }
 
     .main__paragrath {
-        font-family: 'Roboto';
-        font-style: normal;
         font-weight: 400;
         font-size: 18px;
         line-height: 25px;
@@ -115,7 +107,6 @@
     }
 
     .blue_button {
-        line-height: 150%;
         width: 200px;
         height: 48px;
         background-color: #15A9CB;
@@ -177,8 +168,6 @@
     }
 
     .main__title {
-        font-family: 'Roboto';
-        font-style: normal;
         font-weight: 900;
         font-size: 20px;
         line-height: 23px;
@@ -187,8 +176,6 @@
     }
 
     .main__paragrath {
-        font-family: 'Roboto';
-        font-style: normal;
         font-weight: 400;
         font-size: 14px;
         line-height: 20px;
@@ -201,7 +188,6 @@
     }
 
     .blue_button {
-        line-height: 150%;
         width: 160px;
         height: 38px;
         background-color: #15A9CB;
@@ -248,7 +234,9 @@ display: none;
     }
 
 
-    .phone-link {
+
+    .phone-icon {
+        display: block;
         width: 24px;
         height: 24px;
     }
