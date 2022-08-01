@@ -35,6 +35,19 @@
     font-size: 12px;
     line-height: 17px;
 }
+.footer_signature {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 17px;
+    color: #FFFFFF;
+    background-color: #2A2C3F;
+    text-align: center;
+    min-height: 47px;
+    display: none;
+}
+
 
 @media (max-width: 1024px) {
     .footer-box {
@@ -92,6 +105,10 @@
     .conteiner {
         padding-left: 0;
         padding-right: 0;
+    }
+
+    .footer_signature {
+        display: block;
     }
 
 
