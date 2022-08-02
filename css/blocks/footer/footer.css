@@ -3,6 +3,8 @@
     display: flex;
     justify-content: space-between;
     color: #FFFFFF;
+    padding-bottom: 52px;
+    padding-top: 52px;
 }
 
 .trademark {
@@ -11,8 +13,6 @@
 
 .footer {
     background-color: #2F324B;
-    padding-top: 45px;
-    padding-bottom: 45px;
 }
 
 .footer-row {
@@ -64,8 +64,6 @@
 
     .footer {
         background-color: #2F324B;
-        padding-top: 37px;
-        padding-bottom: 37px;
     }
 
     .footer-row {
@@ -87,6 +85,11 @@
         font-weight: 500;
         font-size: 12px;
         line-height: 17px;
+    }
+
+    .footer-box {
+        padding-top: 37px;
+        padding-bottom: 49px;
     }
 
 }
@@ -113,5 +116,14 @@
 
     .signature {
         display: block;
+    }
+
+    .footer {
+        padding-bottom: 0;
+    }
+
+    .footer-box {
+        padding-top: 25px;
+        padding-bottom: 25px;
     }
 }
