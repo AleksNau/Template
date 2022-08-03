@@ -156,7 +156,14 @@
         align-items: center;
     }
 }
-
+@media (max-width: 768px) {
+    .main__title {
+        font-size: 35px;
+    }
+    .main__paragrath {
+        font-size: 16px;
+    }
+}
 
 
 @media (max-width: 320px) {
