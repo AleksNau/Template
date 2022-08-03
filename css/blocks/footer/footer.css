@@ -105,6 +105,19 @@
     .footer__made-by {
         display: none;
     }
+    .contacts__number {
+        display: none;
+    }
+
+    .contacts__callme {
+        display: none;
+    }
+
+    .phone-icon {
+        display: block;
+        width: 60px;
+        height: 60px;
+    }
 }
 @media (max-width: 320px) {
     .footer__made-by {
@@ -137,5 +150,10 @@
     .footer-box {
         padding-top: 25px;
         padding-bottom: 25px;
+    }
+    .phone-icon {
+        display: block;
+        width: 25px;
+        height: 25px;
     }
 }
