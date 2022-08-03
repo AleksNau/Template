@@ -27,9 +27,9 @@
     line-height: 25px;
     text-align: center;
     max-width: 724px;
-    padding-bottom: 50px;
     color: #383A4C;
     margin: 0 auto;
+    margin-bottom: 50px;
 }
 
 .uniqe__list {
@@ -109,9 +109,9 @@
         line-height: 23px;
         text-align: center;
         max-width: 666px;
-        padding-bottom: 50px;
         color: #383A4C;
         margin: 0 auto;
+        margin-bottom: 50px;
     }
 
     .uniqe__list {
@@ -162,6 +162,7 @@
     .uniqe__paragrath{
         padding-right: 15px;
         padding-left: 15px;
+        margin-bottom: 40px;
     }
 }
 
@@ -195,11 +196,11 @@
         line-height: 17px;
         text-align: center;
         max-width: 290px;
-        padding-bottom: 40px;
         color: #383A4C;
         margin: 0 auto;
         padding-right: 0px;
         padding-left: 0px;
+        margin-bottom: 40px;
     }
 
     .uniqe__list {
