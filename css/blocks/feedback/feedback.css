@@ -63,7 +63,7 @@
     }
 
     .feedback__input {
-        width: 377px;
+        width: 100%;
         height: 39px;
         padding: 8px 23px;
         border: 1.38235px solid #FFFFFF;

@@ -18,6 +18,7 @@
 .footer-row {
     display: flex;
     align-items: center;
+    min-width: 183px;
 }
 
 .footer__trademark {
@@ -93,7 +94,18 @@
     }
 
 }
-
+@media (max-width: 625px) {
+    .footer__trademark {
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .signature {
+        display: block;
+    }
+    .footer__made-by {
+        display: none;
+    }
+}
 @media (max-width: 320px) {
     .footer__made-by {
         display: none;
