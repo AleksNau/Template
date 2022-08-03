@@ -5,6 +5,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
+
 }
 
 .feedback__title {
@@ -12,6 +13,7 @@
     font-weight: 700;
     font-size: 35px;
     line-height: 41px;
+    text-align: center;
 }
 
 .feedback__input {
@@ -53,7 +55,16 @@
     color: #4A76A8;
     border-bottom: 1px solid #4A76A8;
 }
-
+.feedback__button {
+    width: 215px;
+    height: 48px;
+    background-color: #15A9CB;
+    border-style: none;
+    border-radius: 50px;
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 23px;
+}
 @media (max-width: 1024px) {
     .feedback__title {
         font-weight: 700;
@@ -109,7 +120,7 @@
     }
 
     .feedback__subtitle {
-        font-size: 12px;
+        font-size: 13px;
         line-height: 14px;
         text-align: center;
         color: rgba(255, 255, 255, 0.8);

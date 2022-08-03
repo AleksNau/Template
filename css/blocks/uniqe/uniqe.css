@@ -3,6 +3,7 @@
     margin: 0 auto;
     max-width: 934px;
     text-align: center;
+    margin-bottom: 9px;
 }
 
 .uniqe__title {
@@ -10,7 +11,7 @@
     font-size: 35px;
     line-height: 41px;
     text-align: center;
-    margin-bottom: 35px;
+    margin-bottom: 27px;
     color: #383A4C;
 }
 
@@ -18,7 +19,7 @@
     font-weight: 500;
     font-size: 22px;
     line-height: 26px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     color: #383A4C;
 }
 
@@ -29,7 +30,7 @@
     max-width: 724px;
     color: #383A4C;
     margin: 0 auto;
-    margin-bottom: 50px;
+    margin-bottom: 59px;
 }
 
 .uniqe__list {
