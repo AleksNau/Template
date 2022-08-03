@@ -151,7 +151,7 @@
     }
 
     .uniqe__item-text {
-        width: 196px;
+        max-width: 100%;
         font-weight: 500;
         font-size: 18px;
         line-height: 25px;
