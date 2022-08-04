@@ -178,6 +178,9 @@
 
 
 @media (max-width: 320px) {
+    .main {
+        padding-bottom: 35px;
+    }
 
     .section {
         margin: 0 auto;
@@ -207,7 +210,7 @@
         color: rgba(255, 255, 255, 0.75);
         max-width: 290px;
         margin: 0 auto;
-        margin-bottom: 52px;
+        margin-bottom: 13px;
     }
 
     .button {
@@ -222,6 +225,7 @@
     }
 
     .logo {
+        margin-top: 5px;
         height: 30px;
         width: 30px;
         border-radius: 50%;
