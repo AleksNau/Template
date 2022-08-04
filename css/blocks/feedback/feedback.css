@@ -66,7 +66,11 @@
     line-height: 23px;
 }
 @media (max-width: 1024px) {
+    .feedback {
+        max-height: 558px;
+    }
     .feedback__title {
+        padding-top: 50px;
         font-weight: 700;
         font-size: 32px;
         line-height: 38px;
@@ -74,7 +78,7 @@
     }
 
     .feedback__input {
-        width: 100%;
+        width: 377px;
         height: 39px;
         padding: 8px 23px;
         border: 1.38235px solid #FFFFFF;
@@ -96,7 +100,7 @@
         align-items: center;
         gap: 21px;
         padding-top: 50px;
-        padding-bottom: 50px;
+        padding-bottom: 30px;
     }
 
     .feedback__agreed {
