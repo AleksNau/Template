@@ -2,6 +2,10 @@
 .uniqe {
     max-width: 934px;
     margin-bottom: 9px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
 
 .uniqe__title {
@@ -162,6 +166,7 @@
 
     .uniqe {
         max-width: 290px;
+        padding-top: 30px;
         padding-bottom: 66px;
     }
 
