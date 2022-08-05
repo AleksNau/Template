@@ -1,8 +1,6 @@
 
 .uniqe {
-    margin: 0 auto;
     max-width: 934px;
-    text-align: center;
     margin-bottom: 9px;
 }
 
@@ -77,15 +75,7 @@
 
 @media (max-width: 1024px) {
     .uniqe {
-        margin: 0 auto;
-        max-width: 966px;
-        text-align: center;
-    }
-
-    .uniqe {
-        margin: 0 auto;
         max-width: 870px;
-
     }
 
     .uniqe__title {
@@ -171,10 +161,8 @@
 @media (max-width: 320px) {
 
     .uniqe {
-        margin: 0 auto;
         max-width: 290px;
         padding-bottom: 66px;
-
     }
 
     .uniqe__title {

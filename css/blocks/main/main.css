@@ -98,6 +98,7 @@
     .main {
         padding-bottom: 0px;
     }
+
     .main__title {
         font-weight: 900;
         font-size: 40px;
@@ -184,14 +185,14 @@
     }
 
     .section {
-        margin: 0 auto;
-        text-align: center;
         padding-top: 30px;
         padding-bottom: 30px;
     }
 
     .conteiner {
         max-width: 290px;
+        padding-left: 0;
+        padding-right: 0;
     }
 
     .main__title {

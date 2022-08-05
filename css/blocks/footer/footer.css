@@ -1,5 +1,4 @@
 .footer-box {
-    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     color: #FFFFFF;
@@ -52,19 +51,9 @@
 
 
 @media (max-width: 1024px) {
-    .footer-box {
-        margin: 0 auto;
-        display: flex;
-        justify-content: space-between;
-        color: #FFFFFF;
-    }
 
     .trademark {
         white-space: pre-line;
-    }
-
-    .footer {
-        background-color: #2F324B;
     }
 
     .footer-row {
@@ -134,17 +123,8 @@
     line-height: 11px;
     }
 
-    .conteiner {
-        padding-left: 0;
-        padding-right: 0;
-    }
-
     .signature {
         display: block;
-    }
-
-    .footer {
-        padding-bottom: 0;
     }
 
     .footer-box {
