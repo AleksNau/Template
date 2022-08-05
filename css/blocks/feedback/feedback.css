@@ -3,7 +3,7 @@
     background: linear-gradient(rgba(47, 50, 75, 0.85),rgba(47, 50, 75, 0.85)),url(./image/original_598199574f1350638e11b2d2_5982c05803796.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: bottom;
+    background-position: center;
 }
 
 .feedback__title {
