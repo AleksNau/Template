@@ -54,7 +54,7 @@
     border-bottom: 1px solid #4A76A8;
 }
 .feedback__button {
-    max-width: 215px;
+    width: 215px;
     height: 48px;
     background-color: #15A9CB;
     border-style: none;
