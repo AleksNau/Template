@@ -33,8 +33,7 @@
     Vertical-align: Top;
     color: rgba(255, 255, 255, 0.75);
     max-width: 960px;
-    margin: 0 auto;
-    margin-bottom: 90px;
+    margin: 0 auto 90px;
 }
 
 .button {
@@ -86,15 +85,21 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 12px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 @media (max-width: 1024px) {
+    .main {
+        padding-bottom: 0;
+    }
     .main__title {
         font-weight: 900;
         font-size: 40px;
         line-height: 47px;;
         text-align: center;
+        max-width: 780px;
+        margin: 0 auto;
         margin-bottom: 27px;
     }
 
@@ -106,8 +111,7 @@
         Vertical-align: Top;
         color: rgba(255, 255, 255, 0.75);
         max-width: 754px;
-        margin: 0 auto;
-        margin-bottom: 60px;
+        margin: 0 auto 60px;
     }
 
     .button {
@@ -142,7 +146,7 @@
         font-size: 21px;
         line-height: 25px;
         text-align: center;
-        margin-bottom: 3px;
+        margin-bottom: 5px;
     }
 
     .contacts__callme {
@@ -178,6 +182,8 @@
     }
 
     .conteiner {
+        padding-left: 0;
+        padding-right: 0;
         max-width: 290px;
     }
 
@@ -196,9 +202,9 @@
         text-align: center;
         Vertical-align: Top;
         color: rgba(255, 255, 255, 0.75);
-        max-width: 290px;
-        margin: 0 auto;
-        margin-bottom: 52px;
+        max-height: 77px;
+        overflow: hidden;
+        margin: 0 auto 52px;
     }
 
     .button {
@@ -210,6 +216,7 @@
         color: #FFFFFF;
         font-size: 16px;
         line-height: 19px;
+        margin-bottom: 34px;
     }
 
     .logo {

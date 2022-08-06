@@ -166,7 +166,7 @@
     .uniqe {
         max-width: 290px;
         padding-top: 30px;
-        padding-bottom: 66px;
+        padding-bottom: 60px;
     }
 
     .uniqe__title {
@@ -221,6 +221,9 @@
         align-items: center;
         gap: 26px;
     }
+    .uniqe__item:last-child {
+        margin-bottom: 8px;
+    }
 
     .uniqe__item-number {
         display: flex;
@@ -241,5 +244,6 @@
         font-weight: 500;
         font-size: 18px;
         line-height: 25px;
+
     }
 }
