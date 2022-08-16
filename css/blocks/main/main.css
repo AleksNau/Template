@@ -6,7 +6,7 @@
 }
 
 .main {
-    background-image: linear-gradient(rgba(47, 50, 75, 0.85),rgba(47, 50, 75, 0.85)), url(./image/background.jpg);
+    background-image: linear-gradient(rgba(47, 50, 75, 0.85),rgba(47, 50, 75, 0.85)), url(./image/84c69d6b502f124c395a819cfeafffd1full.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -33,8 +33,7 @@
     Vertical-align: Top;
     color: rgba(255, 255, 255, 0.75);
     max-width: 960px;
-    margin: 0 auto;
-    margin-bottom: 90px;
+    margin: 0 auto 90px;
 }
 
 .button {
@@ -91,18 +90,13 @@
 }
 
 @media (max-width: 1024px) {
-    .section {
-        padding-top: 20px;
-    }
-
     .main {
-        padding-bottom: 0px;
+        padding-bottom: 0;
     }
-
     .main__title {
         font-weight: 900;
         font-size: 40px;
-        line-height: 47px;
+        line-height: 47px;;
         text-align: center;
         max-width: 780px;
         margin: 0 auto;
@@ -117,8 +111,7 @@
         Vertical-align: Top;
         color: rgba(255, 255, 255, 0.75);
         max-width: 754px;
-        margin: 0 auto;
-        margin-bottom: 60px;
+        margin: 0 auto 60px;
     }
 
     .button {
@@ -153,7 +146,7 @@
         font-size: 21px;
         line-height: 25px;
         text-align: center;
-        margin-bottom: 3px;
+        margin-bottom: 5px;
     }
 
     .contacts__callme {
@@ -180,19 +173,18 @@
 
 
 @media (max-width: 320px) {
-    .main {
-        padding-bottom: 35px;
-    }
 
     .section {
+        margin: 0 auto;
+        text-align: center;
         padding-top: 30px;
         padding-bottom: 30px;
     }
 
     .conteiner {
-        max-width: 290px;
         padding-left: 0;
         padding-right: 0;
+        max-width: 290px;
     }
 
     .main__title {
@@ -210,9 +202,9 @@
         text-align: center;
         Vertical-align: Top;
         color: rgba(255, 255, 255, 0.75);
-        max-width: 290px;
-        margin: 0 auto;
-        margin-bottom: 13px;
+        max-height: 77px;
+        overflow: hidden;
+        margin: 0 auto 52px;
     }
 
     .button {
@@ -224,10 +216,10 @@
         color: #FFFFFF;
         font-size: 16px;
         line-height: 19px;
+        margin-bottom: 34px;
     }
 
     .logo {
-        margin-top: 5px;
         height: 30px;
         width: 30px;
         border-radius: 50%;

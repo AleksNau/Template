@@ -3,15 +3,24 @@
     background: linear-gradient(rgba(47, 50, 75, 0.85),rgba(47, 50, 75, 0.85)),url(./image/original_598199574f1350638e11b2d2_5982c05803796.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: bottom;
+    background-position: center;
 }
 
 .feedback__title {
+    padding-top: 4px;
     margin-bottom: 17px;
     font-weight: 700;
     font-size: 35px;
     line-height: 41px;
     text-align: center;
+    word-spacing: 4px;
+
+}
+.feedback__subtitle {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    color: rgba(255, 255, 255, 0.8);
 }
 
 .feedback__input {
@@ -68,11 +77,15 @@
         max-height: 558px;
     }
     .feedback__title {
-        padding-top: 50px;
+        padding-top: 0;
         font-weight: 700;
         font-size: 32px;
         line-height: 38px;
         margin-bottom: 17px;
+    }
+    .feedback__subtitle {
+        font-size: 20px;
+        line-height: 23px;
     }
 
     .feedback__input {
@@ -88,7 +101,7 @@
     }
 
     .feedback__input:last-of-type {
-        margin-bottom: 29px;
+        margin-bottom: 27px;
     }
 
     .feedback__form {
@@ -96,7 +109,7 @@
         flex-direction: column;
         text-align: center;
         align-items: center;
-        gap: 21px;
+        gap: 20px;
         padding-top: 50px;
         padding-bottom: 30px;
         max-width: 377px;
